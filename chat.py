@@ -27,7 +27,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Sam"
-questions = []
+questions = ["Hola", "Que Tal?"]
 
 app = Flask(__name__)
 
@@ -53,13 +53,19 @@ def predict():
 def get_stats():
     global questions
     question_counts = {}
-    for question in questions:
-        if question not in question_counts:
-            question_counts[question] = 1
-        else:
-            question_counts[question] += 1
+    for intent in intents['intents']:
+        for pattern in intent['patterns']:
+            count = 0
+            for question in questions:
+                if question == pattern:
+                    count += 1
+            if count > 0:
+                question_counts[pattern] = count
     sorted_questions = sorted(question_counts.items(), key=lambda x: x[1], reverse=True)
-    return render_template('stats.html', questions=sorted_questions)
+
+    return render_template('stats.html', stats=sorted_questions)
+
+
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -80,6 +86,7 @@ def get_response(msg):
                 return random.choice(intent['responses'])
     
     return "No entiendo :("
+
 
 if __name__ == "__main__":
     app.run(debug=True)
