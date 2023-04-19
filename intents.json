@@ -169,60 +169,6 @@
                 "Si quiere solicitar un cupo, puede entrar al siguiente enlace: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>, luego le da a Matr\u00edcula Acad\u00e9mica y Solicitudes de registro de asignaturas. Lo siguiente depende de su necesidad."
             ],
             "context_set": ""
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "holaaaaaa"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "holaaaaaa"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "holaaaaaa"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "como se llama la universidad"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "holaaaaaa"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
-        },
-        {
-            "tag": "custom",
-            "patterns": [
-                "holaaaaaa"
-            ],
-            "responses": [
-                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
-            ]
         }
     ]
 }

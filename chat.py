@@ -27,7 +27,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Sam"
-questions = ["Hola", "Que Tal?"]
+questions = []
 
 app = Flask(__name__)
 
