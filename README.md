@@ -5,6 +5,16 @@ Random, Json, Torch, Flask, NeuralNet, Numpy, Nltk
 Para ejecutar la aplicación: En consola
 
 python3 train.py python3 chat.py
+# UQBot
+Librerías:
+
+Random, Json, Torch, Flask, NeuralNet, Numpy, Nltk
+
+Para ejecutar la aplicación: 
+En consola
+
+python3 train.py
+python3 chat.py
 
 luego abrir: http://127.0.0.1:5000/
 
