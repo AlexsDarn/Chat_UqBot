@@ -1,15 +1,15 @@
 # UQBot
+Librerías:
 
-Instalación de librerías
-
-pip install Flask torch torchvision nltk
+Random, Json, Torch, Flask, NeuralNet, Numpy, Nltk
 
 Para ejecutar la aplicación: 
-python3 train.py
-python3 app.py
+En consola
 
-Luego se dirige a front/base.html, click derechi y live server 
-(Si no encuentra la opción, debe entrar descarga la extensión en visual studio code)
+python3 train.py
+python3 chat.py
+
+luego abrir: http://127.0.0.1:5000/
 
 Para agregar un enlace en una respuesta de intents.json,
 utilice este ejemplo:
