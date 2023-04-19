@@ -4,16 +4,16 @@
             "tag": "saludo",
             "patterns": [
                 "Hola",
-                "Buenos días",
-                "¿Se encuentra aquí?",
+                "Buenos d\u00edas",
+                "\u00bfSe encuentra aqu\u00ed?",
                 "Buenas",
-                "Buen día",
+                "Buen d\u00eda",
                 "Entonces"
             ],
             "responses": [
                 "Hola!",
                 "Me alegra que hablemos de nuevo!",
-                "Hola, ¿En que puedo ayudarlo?"
+                "Hola, \u00bfEn que puedo ayudarlo?"
             ],
             "context_set": ""
         },
@@ -24,7 +24,7 @@
                 "Que tal?",
                 "Estas bien?",
                 "como vamos",
-                "que más?",
+                "que m\u00e1s?",
                 "how are you?"
             ],
             "responses": [
@@ -85,36 +85,36 @@
         {
             "tag": "pregunta",
             "patterns": [
-                "¿Puedo hacerte una pregunta?",
+                "\u00bfPuedo hacerte una pregunta?",
                 "Puedo preguntarle algo?",
                 "Pregunta",
                 "Tengo una pregunta",
                 "una duda"
             ],
             "responses": [
-                "¿Cuál es la pregunta?",
-                "Dígame"
+                "\u00bfCu\u00e1l es la pregunta?",
+                "D\u00edgame"
             ],
             "context_set": ""
         },
         {
             "tag": "edad",
             "patterns": [
-                "Cuantos años tiene usted?",
-                "¿Cual es su edad?",
-                "¿Hace cuanto fué creado?"
+                "Cuantos a\u00f1os tiene usted?",
+                "\u00bfCual es su edad?",
+                "\u00bfHace cuanto fu\u00e9 creado?"
             ],
             "responses": [
-                "Fuí creado el 21 de Marzo por Alexio, Potter, El viejo Chicken y Naranjos, tengo menos de un año"
+                "Fu\u00ed creado el 21 de Marzo por Alexio, Potter, El viejo Chicken y Naranjos, tengo menos de un a\u00f1o"
             ],
             "context_set": ""
         },
         {
             "tag": "nombre",
             "patterns": [
-                "¿Cual es su nombre?",
+                "\u00bfCual es su nombre?",
                 "Como se llama usted?",
-                "¿Su nombre?"
+                "\u00bfSu nombre?"
             ],
             "responses": [
                 "Me llamo Pacho"
@@ -124,50 +124,105 @@
         {
             "tag": "carrera",
             "patterns": [
-                "¿Qué carreras ofrece la universidad?",
-                "¿Cuáles son las opciones de estudio?",
-                "¿Qué programas académicos tienen?"
+                "\u00bfQu\u00e9 carreras ofrece la universidad?",
+                "\u00bfCu\u00e1les son las opciones de estudio?",
+                "\u00bfQu\u00e9 programas acad\u00e9micos tienen?"
             ],
             "responses": [
-                "Ofrecemos una amplia variedad de carreras, tales como Administración de Empresas, Ingeniería Civil, Sistemas Computacionales, Electronica, Lenguas Modernas, entre otras. Puede encontrar más información en nuestro sitio web: <a target='_blank' href='https://www.uniquindio.edu.co/oferta_academica/'>https://www.uniquindio.edu.co/oferta_academica/</a>"
+                "Ofrecemos una amplia variedad de carreras, tales como Administraci\u00f3n de Empresas, Ingenier\u00eda Civil, Sistemas Computacionales, Electronica, Lenguas Modernas, entre otras. Puede encontrar m\u00e1s informaci\u00f3n en nuestro sitio web: <a target='_blank' href='https://www.uniquindio.edu.co/oferta_academica/'>https://www.uniquindio.edu.co/oferta_academica/</a>"
             ],
             "context_set": ""
         },
         {
-            "tag": "admisión",
+            "tag": "admisi\u00f3n",
             "patterns": [
-                "¿Cuáles son los requisitos para ser admitido en la universidad?",
-                "¿Qué debo hacer para aplicar a la universidad?"
+                "\u00bfCu\u00e1les son los requisitos para ser admitido en la universidad?",
+                "\u00bfQu\u00e9 debo hacer para aplicar a la universidad?"
             ],
             "responses": [
-                "Los requisitos de admisión varían según el programa académico al que desee aplicar. Por ejemplo, pagar el pin, puntaje del icfes, etc. Puede encontrar más detalles en nuestras oficinas de admisiones o en este enlace: <a target='_blank' href='https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/'>https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/</a>."
+                "Los requisitos de admisi\u00f3n var\u00edan seg\u00fan el programa acad\u00e9mico al que desee aplicar. Por ejemplo, pagar el pin, puntaje del icfes, etc. Puede encontrar m\u00e1s detalles en nuestras oficinas de admisiones o en este enlace: <a target='_blank' href='https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/'>https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/</a>."
             ],
             "context_set": ""
         },
         {
             "tag": "costos",
             "patterns": [
-                "¿Cuánto cuesta estudiar en la universidad?",
-                "¿Valor del semestre?",
-                "¿Cuanto vale el semestre en la universidad?"
+                "\u00bfCu\u00e1nto cuesta estudiar en la universidad?",
+                "\u00bfValor del semestre?",
+                "\u00bfCuanto vale el semestre en la universidad?"
             ],
             "responses": [
-                "Los costos de estudio varían según el programa académico y el tipo de matrícula que desee. Para más información: <a target='_blank' href='https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/'>https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/</a>"
+                "Los costos de estudio var\u00edan seg\u00fan el programa acad\u00e9mico y el tipo de matr\u00edcula que desee. Para m\u00e1s informaci\u00f3n: <a target='_blank' href='https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/'>https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/</a>"
             ],
             "context_set": ""
         },
         {
             "tag": "chat",
             "patterns": [
-                "¿Donde puedo mandar una carta?",
-                "¿Donde puedo crear una solicitud?",
+                "\u00bfDonde puedo mandar una carta?",
+                "\u00bfDonde puedo crear una solicitud?",
                 "Quiero crear una solicitud, donde puedo escribirla",
                 "Quiero solicitar un cupo"
             ],
             "responses": [
-                "Para crear una solicitud, puede entrar al CSU: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>", "Si quiere solicitar un cupo, puede entrar al siguiente enlace: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>, luego le da a Matrícula Académica y Solicitudes de registro de asignaturas. Lo siguiente depende de su necesidad."
+                "Para crear una solicitud, puede entrar al CSU: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>",
+                "Si quiere solicitar un cupo, puede entrar al siguiente enlace: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>, luego le da a Matr\u00edcula Acad\u00e9mica y Solicitudes de registro de asignaturas. Lo siguiente depende de su necesidad."
             ],
             "context_set": ""
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "holaaaaaa"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "holaaaaaa"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "holaaaaaa"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "como se llama la universidad"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "holaaaaaa"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "holaaaaaa"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
         }
     ]
 }
