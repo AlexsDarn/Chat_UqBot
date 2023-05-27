@@ -51,23 +51,6 @@
             "context_set": ""
         },
         {
-            "tag": "defensa",
-            "patterns": [
-                "hijueputa",
-                "gonorrea",
-                "coma mierda",
-                "despeguela",
-                "pirobo"
-            ],
-            "responses": [
-                "su madre por si las moscas",
-                "abrite pirobo",
-                "este care chimba",
-                "voz sos un tetranutra"
-            ],
-            "context_set": ""
-        },
-        {
             "tag": "agradecimiento",
             "patterns": [
                 "Muchas gracias",
@@ -169,6 +152,132 @@
                 "Si quiere solicitar un cupo, puede entrar al siguiente enlace: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>, luego le da a Matr\u00edcula Acad\u00e9mica y Solicitudes de registro de asignaturas. Lo siguiente depende de su necesidad."
             ],
             "context_set": ""
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "Adios"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "precios por persona"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el hangar"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el hangar"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el hangar"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el hangar"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el bloque de ingenier\u00eda"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "donde queda el hangar?"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "Sapo hpta"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "Perro malparido "
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "como puedo cancelar materias"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "\u00bfComo puedo cancelar materias?"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "Sapo"
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
+        },
+        {
+            "tag": "custom",
+            "patterns": [
+                "Culo a culo hemos quedado "
+            ],
+            "responses": [
+                "Lo siento, no s\u00e9 la respuesta a esa pregunta"
+            ]
         }
     ]
 }
